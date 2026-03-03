@@ -45,11 +45,11 @@ open http://localhost:5173
 ```bash
 // In Xcode: File > Add Package Dependencies
 // Enter the repository URL:
-https://github.com/your-org/autoedge-ios-sdk
+https://github.com/Auto-Edge/ios-sdk
 
 // Or add to Package.swift:
 dependencies: [
-    .package(url: "https://github.com/your-org/autoedge-ios-sdk", from: "1.0.0")
+    .package(url: "https://github.com/Auto-Edge/ios-sdk", from: "1.0.0")
 ]
 ```
 
