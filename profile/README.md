@@ -37,7 +37,8 @@ https://github.com/user-attachments/assets/05cea64a-1368-4594-bb30-71459a2b8e5a
 ```bash
 git clone https://github.com/Auto-Edge/autoedge-stack.git
 cd autoedge-stack
-./bootstrap.sh
+chmod +x bootstrap.sh
+sudo ./bootstrap.sh
 docker compose up --build
 ```
 
