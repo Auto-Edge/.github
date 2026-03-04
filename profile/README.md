@@ -41,11 +41,11 @@ chmod +x bootstrap.sh
 sudo ./bootstrap.sh
 docker compose up --build
 ```
-
-1. Convert a demo model (MobileNetV2)
-2. Publish it in the registry
-3. Use AutoSDK in any iOS app (Instructions below).
-4. See inference metrics in the dashboard
+1. Access `http://localhost:5173/`
+2. Convert a demo model (MobileNetV2)
+3. Publish it in the registry
+4. Use AutoSDK in any iOS app (Instructions below).
+5. See inference metrics in the dashboard
 
 ```bash
 // In Xcode: File > Add Package Dependencies
