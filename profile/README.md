@@ -35,8 +35,10 @@ https://github.com/user-attachments/assets/05cea64a-1368-4594-bb30-71459a2b8e5a
 ## Demo
 
 ```bash
-docker-compose up --build -d
-open http://localhost:5173
+git clone https://github.com/Auto-Edge/autoedge-stack.git
+cd autoedge-stack
+./bootstrap.sh
+docker compose up --build
 ```
 
 1. Convert a demo model (MobileNetV2)
