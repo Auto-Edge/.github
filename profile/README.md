@@ -39,7 +39,7 @@ git clone https://github.com/Auto-Edge/autoedge-stack.git
 cd autoedge-stack
 chmod +x bootstrap.sh
 sudo ./bootstrap.sh
-docker compose up --build
+docker compose up --build -d
 ```
 1. Access `http://localhost:5173/`
 2. Convert a demo model (MobileNetV2)
