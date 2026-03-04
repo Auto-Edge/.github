@@ -16,6 +16,8 @@ You trained a PyTorch model. Now you want it running on iPhones. The typical pat
 
 **Upload** your PyTorch model → **Convert** to CoreML (optimized, 50% smaller) → **Publish** to the registry → iOS devices **download automatically**.
 
+https://github.com/user-attachments/assets/05cea64a-1368-4594-bb30-71459a2b8e5a
+
 ## Key Features
 
 - **One-click conversion**: PyTorch → CoreML with FP16 quantization
@@ -75,9 +77,5 @@ AutoEdgeSDK.shared.reportInference(
     latencyMs: 15.5
 )
 ```
-
-
-https://github.com/user-attachments/assets/05cea64a-1368-4594-bb30-71459a2b8e5a
-
 
 
