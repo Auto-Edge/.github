@@ -39,6 +39,7 @@ git clone https://github.com/Auto-Edge/autoedge-stack.git
 cd autoedge-stack
 chmod +x bootstrap.sh
 ./bootstrap.sh
+docker compose down -v
 docker compose up --build -d
 ```
 1. Access `http://localhost:5173/`
